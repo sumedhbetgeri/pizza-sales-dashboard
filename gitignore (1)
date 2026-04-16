@@ -1,0 +1,42 @@
+# -----------------------------------------------
+# .gitignore — Pizza Sales Power BI Dashboard
+# -----------------------------------------------
+
+# Power BI temporary / lock files
+*.pbix.lock
+*.pbix.bak
+
+# Local Power BI Desktop logs
+*.log
+
+# Windows system files
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code settings (if editing docs locally)
+.vscode/
+
+# Jupyter notebooks (if any EDA was done)
+.ipynb_checkpoints/
+
+# Large data files — keep CSV in repo only if < 100MB
+# Uncomment the line below to exclude large datasets:
+# data/*.csv
+
+# Environment / secrets (never commit these)
+.env
+*.env
+secrets.json
+config.json
+
+# Python virtualenvs (if used for data prep)
+venv/
+env/
+__pycache__/
+*.pyc
